@@ -18,6 +18,7 @@ xhr.setRequestHeader("x-rapidapi-key", "6efafd8dafmshf276029b36d373ap1e87cajsn86
 xhr.setRequestHeader("x-rapidapi-host", "blooket.p.rapidapi.com");
 
 xhr.send(data);
-let qn = document.querySelector("#app > div > div > div.styles__questionContainer___34aw8-camelCase > div > div.styles__questionContainer___1Zi84-camelCase > div.styles__questionText___10zyP-camelCase > div");
+let qid = ""
 setInterval(()=>{
+	quid = document.querySelector("#app > div > div > div.styles__questionContainer___34aw8-camelCase > div > div.styles__questionContainer___1Zi84-camelCase > div.styles__questionText___10zyP-camelCase > div").innerText;
 })
