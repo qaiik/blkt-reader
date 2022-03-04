@@ -19,6 +19,15 @@ xhr.setRequestHeader("x-rapidapi-host", "blooket.p.rapidapi.com");
 
 xhr.send(data);
 let qid = ""
-setInterval(()=>{
-	quid = document.querySelector("#app > div > div > div.styles__questionContainer___34aw8-camelCase > div > div.styles__questionContainer___1Zi84-camelCase > div.styles__questionText___10zyP-camelCase > div").innerText;
-})
+function get(dat,question) {
+    for (let e of dat.questions) {
+        if (e.question === question) {
+            return e.correctAnswers[0]
+        }
+        
+    }
+}
+window.onkeyup = ()=>{
+	qid = document.querySelector("#app > div > div > div.styles__questionContainer___34aw8-camelCase > div > div.styles__questionContainer___1Zi84-camelCase > div.styles__questionText___10zyP-camelCase > div").innerText;
+	alert(get(bdata,quid))
+}
