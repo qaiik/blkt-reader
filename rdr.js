@@ -13,7 +13,7 @@ xhr.addEventListener("readystatechange", function () {
 	}
 });
 
-xhr.open("GET", `https://api.blocket.com/api/games?gameId=${gid}`);
+xhr.open("GET", `https://api.blooket.com/api/games?gameId=${gid}`);
 
 xhr.send(data);
 let qid = ""
