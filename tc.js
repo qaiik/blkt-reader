@@ -39,5 +39,7 @@ let h = ()=>{
 }
 
 setInterval(()=>{
-  h()
+	if (document.querySelector(".styles__questionText___10zyP-camelCase")) {
+		h()
+	}
 },1)
