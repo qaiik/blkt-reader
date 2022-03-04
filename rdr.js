@@ -27,5 +27,12 @@ function get(dat,question) {
 }
 window.onkeyup = ()=>{
 	qid = document.querySelector(".styles__questionText___10zyP-camelCase").innerText;
-	alert(get(bdata,qid))
+	let answer = get(bdata,qid))
+	let ab = document.querySelector(".styles__answersHolder___1tefk-camelCase");
+	Array.from(ab).children.forEach((pa)=>{
+		if (pa.innerText == answer) {
+			pa.click()
+		}
+	})
+	
 }
