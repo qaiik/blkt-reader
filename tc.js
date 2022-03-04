@@ -42,4 +42,7 @@ setInterval(()=>{
 	if (document.querySelector(".styles__questionText___10zyP-camelCase")) {
 		h()
 	}
+	if (document.querySelector(".fa-check")) {
+		document.querySelector(".fa-check").click()
+	}
 },1)
