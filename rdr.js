@@ -27,5 +27,5 @@ function get(dat,question) {
 }
 window.onkeyup = ()=>{
 	qid = document.querySelector(".styles__questionText___10zyP-camelCase").innerText;
-	alert(get(bdata,quid))
+	alert(get(bdata,qid))
 }
