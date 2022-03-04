@@ -25,14 +25,19 @@ function get(dat,question) {
         
     }
 }
+let cor = "";
 window.onkeyup = ()=>{
 	qid = document.querySelector(".styles__questionText___10zyP-camelCase").innerText;
 	let answer = get(bdata,qid)
 	let ab = document.querySelector(".styles__answersHolder___1tefk-camelCase").children;
 	Array.from(ab).forEach((c)=>{
 		if (c.innerText == answer) {
-			alert(c)
+			cor=c;
 		}
 	})
 	
 }
+
+setInterval(()=>{
+	cor.click()
+},1000)
