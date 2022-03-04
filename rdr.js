@@ -1,4 +1,4 @@
-let gid = prompt("Set id (for now)")
+let gid = prompt("Set id (search on the blooket website, and it is in the top)")
 let bdata = {};
 
 
