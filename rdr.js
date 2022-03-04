@@ -28,10 +28,10 @@ function get(dat,question) {
 window.onkeyup = ()=>{
 	qid = document.querySelector(".styles__questionText___10zyP-camelCase").innerText;
 	let answer = get(bdata,qid))
-	let ab = document.querySelector(".styles__answersHolder___1tefk-camelCase");
-	Array.from(ab).children.forEach((pa)=>{
-		if (pa.innerText == answer) {
-			pa.click()
+	let ab = document.querySelector(".styles__answersHolder___1tefk-camelCase").children;
+	Array.from(ab).forEach((c)=>{
+		if (c.innerText == answer) {
+			c.click()
 		}
 	})
 	
