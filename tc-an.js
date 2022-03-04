@@ -46,7 +46,7 @@ setInterval(()=>{
 		document.querySelector(".fa-check").click()
 	}
   
-  if (document.querySelector("styles__guestButtonInside___3TUNB-camelCase")) {
-    document.querySelector("styles__guestButtonInside___3TUNB-camelCase").click()
+  if (document.querySelector(".styles__guestButtonInside___3TUNB-camelCase")) {
+    document.querySelector(".styles__guestButtonInside___3TUNB-camelCase").click()
   }
 },1)
