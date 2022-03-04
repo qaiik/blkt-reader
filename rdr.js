@@ -31,7 +31,7 @@ window.onkeyup = ()=>{
 	let ab = document.querySelector(".styles__answersHolder___1tefk-camelCase").children;
 	Array.from(ab).forEach((c)=>{
 		if (c.innerText == answer) {
-			c.click()
+			alert(c)
 		}
 	})
 	
