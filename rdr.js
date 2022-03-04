@@ -1,4 +1,4 @@
-let gid = parseInt(prompt("Set id (for now)"))
+let gid = prompt("Set id (for now)")
 let bdata = {};
 
 
