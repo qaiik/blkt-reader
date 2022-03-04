@@ -26,6 +26,6 @@ function get(dat,question) {
     }
 }
 window.onkeyup = ()=>{
-	qid = document.querySelector("#app > div > div > div.styles__questionContainer___34aw8-camelCase > div > div.styles__questionContainer___1Zi84-camelCase > div.styles__questionText___10zyP-camelCase > div").innerText;
+	qid = document.querySelector(".styles__questionText___10zyP-camelCase").innerText;
 	alert(get(bdata,quid))
 }
