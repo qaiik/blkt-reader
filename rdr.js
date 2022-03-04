@@ -1,4 +1,4 @@
-let gid = parseInt(prompt("Game id"))
+let gid = parseInt(prompt("Set id (for now)"))
 let bdata = {};
 
 
@@ -13,9 +13,7 @@ xhr.addEventListener("readystatechange", function () {
 	}
 });
 
-xhr.open("GET", "https://blooket.p.rapidapi.com/games?gameId=607858625f08d9002318c0e2");
-xhr.setRequestHeader("x-rapidapi-key", "6efafd8dafmshf276029b36d373ap1e87cajsn869379e83bfe");
-xhr.setRequestHeader("x-rapidapi-host", "blooket.p.rapidapi.com");
+xhr.open("GET", `https://api.blocket.com/api/games?gameId=${gid}`);
 
 xhr.send(data);
 let qid = ""
