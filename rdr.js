@@ -32,12 +32,8 @@ window.onkeyup = ()=>{
 	let ab = document.querySelector(".styles__answersHolder___1tefk-camelCase").children;
 	Array.from(ab).forEach((c)=>{
 		if (c.innerText == answer) {
-			cor=c;
+			c.children[1].click();
 		}
 	})
 	
 }
-
-setInterval(()=>{
-	cor.click()
-},1000)
