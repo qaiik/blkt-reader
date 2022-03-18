@@ -44,6 +44,11 @@ setInterval(()=>{
 setInterval(()=>{
 	
 	window.onkeyup = ()=>{
-		document.querySelector("#app > div > div > div:nth-child(2) > div > div > div.styles__questionContainer___3u_c9-camelCase > div > div").innerText = get(bdata,document.querySelector("#app > div > div > div:nth-child(2) > div > div > div.styles__questionContainer___3u_c9-camelCase > div").innerText)
+		let ansr = get(bdata,document.querySelector("#app > div > div > div:nth-child(2) > div > div > div.styles__questionContainer___3u_c9-camelCase > div").innerText)
+		Array.from(document.querySelector("#app > div > div > div:nth-child(2) > div > div > div.styles__answersHolder___3LYNs-camelCase").children).forEach(pa=>{
+			if (pa.innerText == ansr) {
+				pa.children[0].click()
+			}
+		})
 	}
 },1)
