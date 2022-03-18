@@ -41,7 +41,7 @@ setInterval(()=>{
 	if (document.querySelector("#app > div > div > div:nth-child(2) > div > div.styles__powerUpIconContainer___3rksC-camelCase")) {
 	    setTimeout(()=>{
 		  document.querySelector("#app > div > div > div:nth-child(2) > div > div.styles__powerUpIconContainer___3rksC-camelCase").click()
-	    },300)
+	    },1000)
 	    
 	}
 	
