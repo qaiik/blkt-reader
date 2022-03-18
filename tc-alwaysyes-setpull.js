@@ -27,7 +27,7 @@ function get(dat,question) {
 }
 let cor = "";
 let h = ()=>{
-	qid = document.querySelector(".styles__questionText___10zyP-camelCase").innerText;
+	qid = document.querySelector("#app > div > div > div:nth-child(2) > div > div > div.styles__questionContainer___3u_c9-camelCase > div > div").innerText;
 	let answer = get(bdata,qid)
 	let ab = document.querySelector(".styles__answersHolder___1tefk-camelCase").children;
 	alert(answer)
