@@ -45,4 +45,7 @@ setInterval(()=>{
   if (document.querySelector(".styles__guestButton___2jiD9-camelCase")) {
     document.querySelector(".styles__guestButton___2jiD9-camelCase").click()
   }
+  if (document.querySelector("#app > div > div > div:nth-child(2) > div > div > div.styles__container___1-bHf-camelCase")) {
+	  document.querySelector("#app > div > div > div:nth-child(2) > div > div > div.styles__container___1-bHf-camelCase").click()
+  }
 },1)
