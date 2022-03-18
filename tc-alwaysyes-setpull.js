@@ -28,9 +28,6 @@ function get(dat,question) {
 let cor = "";
 
 setInterval(()=>{
-	if (document.querySelector("#app > div > div > div:nth-child(2) > div > div > div.styles__questionContainer___3u_c9-camelCase > div")) {
-		h()
-	}
 	if (document.querySelector(".fa-check")) {
 		document.querySelector(".fa-check").click()
 	}
