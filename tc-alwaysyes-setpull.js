@@ -1,4 +1,3 @@
-let gid = prompt("Set id (search it in the blooket website, and copy from the address bar)")
 let bdata = {};
 
 ((() => {
