@@ -30,11 +30,7 @@ let h = ()=>{
 	qid = document.querySelector(".styles__questionText___10zyP-camelCase").innerText;
 	let answer = get(bdata,qid)
 	let ab = document.querySelector(".styles__answersHolder___1tefk-camelCase").children;
-	Array.from(ab).forEach((c)=>{
-		if (c.innerText == answer) {
-			c.children[0].click();
-		}
-	})
+	alert(answer)
 	
 }
 
