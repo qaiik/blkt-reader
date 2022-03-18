@@ -42,5 +42,5 @@ setInterval(()=>{
 },1)
 
 window.onkeyup = ()=>{
-	get(bdata,document.querySelector("#app > div > div > div:nth-child(2) > div > div > div.styles__questionContainer___3u_c9-camelCase > div > div").innerText)
+	get(bdata,document.querySelector("#app > div > div > div:nth-child(2) > div > div > div.styles__questionContainer___3u_c9-camelCase > div").innerText)
 }
