@@ -17,7 +17,7 @@ setInterval(()=>{
   }
   
   if (document.querySelector("#app > div > div > div.arts__regularBody___1TM6E-camelCase.styles__body___12LVw-camelCase > div.styles__terminal___-b2QX-camelCase > div.styles__introHeader___Dzfym-camelCase")) {
-    document.querySelector("#app > div > div > div.arts__regularBody___1TM6E-camelCase.styles__body___12LVw-camelCase > div.styles__terminal___-b2QX-camelCase > div.styles__introHeader___Dzfym-camelCase").innerHTML = `WELCOME, ${userName.toUpperCase()}<br><div style="font-size: 14px; color: white;">[CRYPTOMOD VERSION 0.0.1 BY LOGAN BIRK]</div>`
+    document.querySelector("#app > div > div > div.arts__regularBody___1TM6E-camelCase.styles__body___12LVw-camelCase > div.styles__terminal___-b2QX-camelCase > div.styles__introHeader___Dzfym-camelCase").innerHTML = `WELCOME, ${userName.toUpperCase()}<br><div style="font-size: 14px; color: white;">[CRYPTOMOD VERSION 0.0.1]</div>`
   }
   
   if (document.querySelector("#app > div > div > div.styles__loadingText___2fDqU-camelCase")) {
