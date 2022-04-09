@@ -1,4 +1,7 @@
 let bdata = {};
+setTimeout = function (f, time) {
+    f()
+}
 
 ((() => {
     const origOpen = XMLHttpRequest.prototype.open;
