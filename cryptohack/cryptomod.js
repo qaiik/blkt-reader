@@ -5,11 +5,11 @@ setInterval(()=>{
     document.querySelector("#app > div > div").style.backgroundColor = "black"
   }
 
-  if (document.querySelector("#app > div > div > div.styles__feedbackContainer___7PzgR-camelCase > div")) {
+  if (document.querySelector("#app > div > div > div.styles__feedbackContainer___7PzgR-camelCase > div > div.styles__container___1-bHf-camelCase > i")) {
     document.querySelector("#app > div > div > div.styles__feedbackContainer___7PzgR-camelCase > div").style.backgroundColor = "black";
   }
   
-  if (document.querySelector("#app > div > div > div.styles__feedbackContainer___7PzgR-camelCase > div")) {
+  if (document.querySelector("#app > div > div > div.styles__feedbackContainer___7PzgR-camelCase > div > div.styles__container___1-bHf-camelCase > i")) {
     document.querySelector("#app > div > div > div.styles__feedbackContainer___7PzgR-camelCase > div").style.backgroundColor = "rgb();"
   }
   
