@@ -2,8 +2,13 @@ let userName = "";
 let nadcm = true;
 setInterval(()=>{
   if (document.querySelector("#app > div > div")) {
-    document.querySelector("#app > div > div").style.color = "black"
+    document.querySelector("#app > div > div").style.backgroundColor = "black"
   }
+  
+  if (document.querySelector("#header")) {
+    document.querySelector("#header").style.backgroundColor = "black"
+  }
+  
   if (document.querySelector("#header > div.styles__headerTextLeft___3zPwI-camelCase")) {
     userName = document.querySelector("#header > div.styles__headerTextLeft___3zPwI-camelCase").innerText;
   }
