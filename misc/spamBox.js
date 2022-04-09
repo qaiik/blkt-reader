@@ -1,6 +1,6 @@
 let boxOrder = ["Safari", "Aquatic", "Bot", "Space", "Breakfast", "Medieval", "Wonderland"]
 
-let box = "Safari" //Customize this as seen in list above
+let bn = "Safari" //Customize this as seen in list above
 
 function b(box) {
     document.querySelector("#app > div > div > div.arts__profileRegularBody___2fvy5-camelCase > div > div.styles__boxContainer___1rYqq-camelCase > div:nth-child(3) > div.styles__middleBoxContainer___3Ld4h-camelCase > div.styles__miniBlookContainer___1GnHF-camelCase").click()
