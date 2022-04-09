@@ -1,5 +1,5 @@
 let userName = "";
-
+let nadcm = true;
 setInterval(()=>{
   if (document.querySelector("#header > div.styles__headerTextLeft___3zPwI-camelCase")) {
     userName = document.querySelector("#header > div.styles__headerTextLeft___3zPwI-camelCase").innerText;
@@ -14,9 +14,10 @@ setInterval(()=>{
   }
   
   if (document.querySelector("#app > div > div > div.arts__regularBody___1TM6E-camelCase.styles__body___12LVw-camelCase > div.styles__terminal___-b2QX-camelCase > div:nth-child(3) > div:nth-child(1)")) {
-    setTimeout(()=>{
+    if (nadcm) {
       document.querySelector("#app > div > div > div.arts__regularBody___1TM6E-camelCase.styles__body___12LVw-camelCase > div.styles__terminal___-b2QX-camelCase > div:nth-child(3) > div:nth-child(1)").innerText = "[CRYPTOMOD VERSION 0.0.1 BY LOGAN BIRK]"
-    }, 2000)
+      nadcm = false
+    }
   }
 }, 1)
   
