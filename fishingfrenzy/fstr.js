@@ -68,7 +68,7 @@ setInterval(()=>{
 	    
 	}
 	
-},100)
+},1)
 
 setInterval(()=>{
 
@@ -84,4 +84,4 @@ setInterval(()=>{
 		}
 	}
 	gar()
-},100)
+},1)
