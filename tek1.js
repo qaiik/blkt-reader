@@ -1,7 +1,6 @@
 let bdata = {};
 let times = 0;
 Math.random = function () {
-    console.log(times)
     if (times === 0 && document.querySelector("#app > div > div > div.arts__regularBody___1TM6E-camelCase > div.styles__pageButton___3uI22-camelCase")) {
       times+=1;
       return 0.0000000000000001
