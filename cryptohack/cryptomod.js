@@ -1,12 +1,11 @@
 let userName = "";
-let nadcm = true;
 setInterval(()=>{
   if (document.querySelector("#app > div > div")) {
     document.querySelector("#app > div > div").style.backgroundColor = "black"
   }
 
   if (document.querySelector("#app > div > div > div.styles__feedbackContainer___7PzgR-camelCase > div")) {
-    document.querySelector("#app > div > div > div.styles__feedbackContainer___7PzgR-camelCase > div").style.backgroundColor = "rgb();"
+    document.querySelector("#app > div > div > div.styles__feedbackContainer___7PzgR-camelCase > div").setAttribute("style", "cursor: pointer;")
   }
   
   if (document.querySelector("#header")) {
@@ -26,10 +25,7 @@ setInterval(()=>{
   }
   
   if (document.querySelector("#app > div > div > div.arts__regularBody___1TM6E-camelCase.styles__body___12LVw-camelCase > div.styles__terminal___-b2QX-camelCase > div:nth-child(3) > div:nth-child(1)")) {
-    if (nadcm) {
-      document.querySelector("#app > div > div > div.arts__regularBody___1TM6E-camelCase.styles__body___12LVw-camelCase > div.styles__terminal___-b2QX-camelCase > div:nth-child(3) > div:nth-child(1)").innerText = "> Different IP detected. Initiating setup."
-      nadcm = false
-    }
+    document.querySelector("#app > div > div > div.arts__regularBody___1TM6E-camelCase.styles__body___12LVw-camelCase > div.styles__terminal___-b2QX-camelCase > div:nth-child(3) > div:nth-child(1)").innerText = ""
   }
   
   if (document.querySelector("#header > div.styles__headerRight___D5pQ1-camelCase > div")) {
