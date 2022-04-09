@@ -48,9 +48,6 @@ function get(dat,question) {
 let cor = "";
 
 setInterval(()=>{
-  if (document.querySelector("#app > div > div > div.arts__regularBody___1TM6E-camelCase > div.arts__modal___VpEAD-camelCase.styles__fishModal___PqTdM-camelCase.styles__fishModalButton___2-VaN-camelCase")) {
-	  document.querySelector("#app > div > div > div.arts__regularBody___1TM6E-camelCase > div.arts__modal___VpEAD-camelCase.styles__fishModal___PqTdM-camelCase.styles__fishModalButton___2-VaN-camelCase").click()
-  }
   if (document.querySelector("#app > div > div > div.arts__regularBody___1TM6E-camelCase > div.styles__pageButton___3uI22-camelCase")) {
     document.querySelector("#app > div > div > div.arts__regularBody___1TM6E-camelCase > div.styles__pageButton___3uI22-camelCase").click()
   }
@@ -65,7 +62,7 @@ setInterval(()=>{
 	  	document.querySelector("#app > div > div > div:nth-child(2) > div > div > div.styles__container___1-bHf-camelCase").click()
   	}
 	if (document.querySelector("#app > div > div > div:nth-child(2) > div > div.styles__powerUpIconContainer___3rksC-camelCase")) {
-	    setTimeout(()=>{
+	    origST(()=>{
 		  document.querySelector("#app > div > div > div:nth-child(2) > div > div.styles__powerUpIconContainer___3rksC-camelCase").click()
 	    },1000)
 	    
@@ -74,20 +71,12 @@ setInterval(()=>{
 },1)
 
 setInterval(()=>{
-    if (document.querySelector("#app > div > div > div.styles__questionContainer___1u3eL-camelCase > div > div.styles__questionContainer___3u_c9-camelCase > div > div")) {
-        setTimeout = origST;
-	gar = ()=>{
-		if (document.querySelector("#app > div > div > div.styles__questionContainer___3Aq4Z-camelCase > div > div.styles__questionContainer___3u_c9-camelCase > div.styles__questionText___2MlSZ-camelCase > div")) {
-			
-			let ansr = get(bdata,document.querySelector("#app > div > div > div.styles__questionContainer___1u3eL-camelCase > div > div.styles__questionContainer___3u_c9-camelCase > div > div").innerText)
-			Array.from(document.querySelector("#app > div > div > div.styles__questionContainer___1u3eL-camelCase > div > div.styles__answersHolder___3LYNs-camelCase").children).forEach(pa=>{
-				if (pa.innerText == ansr) {
-					pa.children[0].click()
-				}
-			})
-		}
+	if (document.querySelector("#app > div > div > div:nth-child(3) > div > div.styles__answersHolder___3LYNs-camelCase")) {
+		Array.from(document.querySelector("#app > div > div > div:nth-child(3) > div > div.styles__answersHolder___3LYNs-camelCase").children).forEach(p=>{let ans = get(bdata,document.querySelector("#app > div > div > div:nth-child(3) > div > div.styles__questionContainer___3u_c9-camelCase").innerText); if (p.innerText === ans) {p.firstChild.click()}})
 	}
-	gar()
+	if (document.querySelector("#app > div > div > div.arts__regularBody___1TM6E-camelCase.styles__body___12LVw-camelCase > div.styles__feedbackContainer___7PzgR-camelCase > div.styles__choice___1aMOz-camelCase.styles__choice2___3mKbD-camelCase")) {
+		document.querySelector("#app > div > div > div.arts__regularBody___1TM6E-camelCase.styles__body___12LVw-camelCase > div.styles__feedbackContainer___7PzgR-camelCase > div.styles__choice___1aMOz-camelCase.styles__choice2___3mKbD-camelCase").click()
+	}
 },1)
 
 // document.querySelector("#app > div > div > div.styles__questionContainer___1u3eL-camelCase > div > div.styles__questionContainer___3u_c9-camelCase > div > div")
