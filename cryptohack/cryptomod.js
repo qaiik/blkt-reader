@@ -4,6 +4,14 @@ setInterval(()=>{
   if (document.querySelector("#app > div > div")) {
     document.querySelector("#app > div > div").style.backgroundColor = "black"
   }
+
+  if (document.querySelector("#app > div > div > div.styles__feedbackContainer___7PzgR-camelCase > div")) {
+    document.querySelector("#app > div > div > div.styles__feedbackContainer___7PzgR-camelCase > div").style.backgroundColor = "black";
+  }
+  
+  if (document.querySelector("#app > div > div > div.styles__feedbackContainer___7PzgR-camelCase > div")) {
+    document.querySelector("#app > div > div > div.styles__feedbackContainer___7PzgR-camelCase > div").style.backgroundColor = "rgb();"
+  }
   
   if (document.querySelector("#header")) {
     document.querySelector("#header").style.backgroundColor = "black"
