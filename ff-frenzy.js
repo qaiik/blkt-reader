@@ -31,6 +31,9 @@ function get(dat,question) {
 let cor = "";
 
 setInterval(()=>{
+  if (document.querySelector("#app > div > div > div.arts__regularBody___1TM6E-camelCase > div.arts__modal___VpEAD-camelCase.styles__fishModal___PqTdM-camelCase.styles__fishModalButton___2-VaN-camelCase")) {
+	  document.querySelector("#app > div > div > div.arts__regularBody___1TM6E-camelCase > div.arts__modal___VpEAD-camelCase.styles__fishModal___PqTdM-camelCase.styles__fishModalButton___2-VaN-camelCase").click()
+  }
   if (document.querySelector("#app > div > div > div.arts__regularBody___1TM6E-camelCase > div.styles__pageButton___3uI22-camelCase")) {
     document.querySelector("#app > div > div > div.arts__regularBody___1TM6E-camelCase > div.styles__pageButton___3uI22-camelCase").click()
   }
@@ -54,14 +57,17 @@ setInterval(()=>{
 },1)
 
 setInterval(()=>{
-	
+
 	gar = ()=>{
-		let ansr = get(bdata,document.querySelector("#app > div > div > div.styles__questionContainer___3Aq4Z-camelCase > div > div.styles__questionContainer___3u_c9-camelCase > div.styles__questionText___2MlSZ-camelCase > div").innerText)
-		Array.from(document.querySelector("#app > div > div > div.styles__questionContainer___3Aq4Z-camelCase > div > div.styles__answersHolder___3LYNs-camelCase").children).forEach(pa=>{
-			if (pa.innerText == ansr) {
-				pa.children[0].click()
-			}
-		})
+		if (document.querySelector("#app > div > div > div.styles__questionContainer___3Aq4Z-camelCase > div > div.styles__questionContainer___3u_c9-camelCase > div.styles__questionText___2MlSZ-camelCase > div")) {
+			
+			let ansr = get(bdata,document.querySelector("#app > div > div > div.styles__questionContainer___3Aq4Z-camelCase > div > div.styles__questionContainer___3u_c9-camelCase > div.styles__questionText___2MlSZ-camelCase > div").innerText)
+			Array.from(document.querySelector("#app > div > div > div.styles__questionContainer___3Aq4Z-camelCase > div > div.styles__answersHolder___3LYNs-camelCase").children).forEach(pa=>{
+				if (pa.innerText == ansr) {
+					pa.children[0].click()
+				}
+			})
+		}
 	}
 	gar()
 },1)
