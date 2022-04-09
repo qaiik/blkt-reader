@@ -39,4 +39,5 @@ Classic (main):
   Answers right
   No delay
  
+ Bookmarks at https://blkt-hack.ikpar3.repl.co
   
