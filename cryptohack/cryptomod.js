@@ -10,7 +10,7 @@ setInterval(()=>{
   }
   
   if (document.querySelector("#app > div > div > div.styles__loadingText___2fDqU-camelCase")) {
-    document.querySelector("#app > div > div > div.styles__loadingText___2fDqU-camelCase").innerText = "[LOADING]\nGet Ready!"
+    document.querySelector("#app > div > div > div.styles__loadingText___2fDqU-camelCase").innerText = "Get Ready!\n" + document.querySelector("#app > div > div > div.styles__loadingText___2fDqU-camelCase").innerText.replaceAll("#","+")
   }
 }, 1)
   
