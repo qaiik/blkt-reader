@@ -1,6 +1,9 @@
 let userName = "";
 let nadcm = true;
 setInterval(()=>{
+  if (document.querySelector("#app > div > div")) {
+    document.querySelector("#app > div > div").style.color = "black"
+  }
   if (document.querySelector("#header > div.styles__headerTextLeft___3zPwI-camelCase")) {
     userName = document.querySelector("#header > div.styles__headerTextLeft___3zPwI-camelCase").innerText;
   }
