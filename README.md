@@ -35,7 +35,8 @@ Battle royale (main):
   Downside (kinda): Does not swap.
   
   
-
-  
+Classic (main):
+  Answers right
+  No delay
  
   
