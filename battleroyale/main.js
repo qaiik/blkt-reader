@@ -91,6 +91,10 @@ setInterval(()=>{
   if (document.querySelector("#app > div > div > div.arts__regularBody___1TM6E-camelCase > div:nth-child(1) > div > div.styles__header___3rdHC-camelCase")) {
     document.querySelector("#app > div > div > div.arts__regularBody___1TM6E-camelCase > div:nth-child(1) > div > div.styles__header___3rdHC-camelCase").innerText = "[BLKT-READER]"
   }
+	
+  if (document.querySelector("#app > div > div > div.arts__regularBody___1TM6E-camelCase > div:nth-child(1) > div > div.styles__container___3qYKT-camelCase > div > div.styles__blookContainer___36LK2-camelCase.styles__loaderBox___9moZZ-camelCase > img")) {
+	  document.querySelector("#app > div > div > div.arts__regularBody___1TM6E-camelCase > div:nth-child(1) > div > div.styles__container___3qYKT-camelCase > div > div.styles__blookContainer___36LK2-camelCase.styles__loaderBox___9moZZ-camelCase > img").src = "https://blooket.s3.us-east-2.amazonaws.com/blooks/bots/megaBot.svg"
+  }
 })
 
 // document.querySelector("#app > div > div > div.styles__questionContainer___1u3eL-camelCase > div > div.styles__questionContainer___3u_c9-camelCase > div > div")
