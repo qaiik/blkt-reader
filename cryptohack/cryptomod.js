@@ -1,15 +1,11 @@
 let userName = "";
 let nadcm = true;
 setInterval(()=>{
-  if (document.querySelector("#app > div > div") && document.querySelector("#app > div > div > div.styles__feedbackContainer___7PzgR-camelCase > div > div.styles__header___2daxi-camelCase") && document.querySelector("#app > div > div > div.styles__feedbackContainer___7PzgR-camelCase > div > div.styles__header___2daxi-camelCase").innerText != "CORRECT" && document.querySelector("#app > div > div > div.styles__feedbackContainer___7PzgR-camelCase > div > div.styles__header___2daxi-camelCase").innerText != "INCORRECT") {
+  if (document.querySelector("#app > div > div")) {
     document.querySelector("#app > div > div").style.backgroundColor = "black"
   }
 
-  if (document.querySelector("#app > div > div > div.styles__feedbackContainer___7PzgR-camelCase > div > div.styles__header___2daxi-camelCase").innerText === "INCORRECT") {
-    document.querySelector("#app > div > div > div.styles__feedbackContainer___7PzgR-camelCase > div").style.backgroundColor = "black";
-  }
-  
-  if (document.querySelector("#app > div > div > div.styles__feedbackContainer___7PzgR-camelCase > div > div.styles__header___2daxi-camelCase").innerText === "CORRECT") {
+  if (document.querySelector("#app > div > div > div.styles__feedbackContainer___7PzgR-camelCase > div")) {
     document.querySelector("#app > div > div > div.styles__feedbackContainer___7PzgR-camelCase > div").style.backgroundColor = "rgb();"
   }
   
