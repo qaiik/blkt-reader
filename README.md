@@ -19,6 +19,7 @@ Crypto Hack (ch-autoanswer):
   Answers correctly
   Opens boxes
   Has no delay with `setTimeout=function(f,t){f()};`
+  Semi-compatible with cryptomod, although the colors may be slightly different.
   
 Crypto Hack (cryptomod):
   Changes dialogue, and visually improves game (allowed)
