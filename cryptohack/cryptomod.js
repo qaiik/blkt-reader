@@ -25,7 +25,17 @@ setInterval(()=>{
   }
   
   if (document.querySelector("#app > div > div > div.arts__regularBody___1TM6E-camelCase.styles__body___12LVw-camelCase > div.styles__terminal___-b2QX-camelCase > div:nth-child(3) > div:nth-child(2)")) {
-    document.querySelector("#app > div > div > div.arts__regularBody___1TM6E-camelCase.styles__body___12LVw-camelCase > div.styles__terminal___-b2QX-camelCase > div:nth-child(3) > div:nth-child(2)").innerText = document.querySelector("#app > div > div > div.arts__regularBody___1TM6E-camelCase.styles__body___12LVw-camelCase > div.styles__terminal___-b2QX-camelCase > div:nth-child(3) > div:nth-child(2)").innerText.replace("Terminal Hacking Portal", "terminal.").replace("Terminal Hacking Portal", "terminal.")
+    document.querySelector("#app > div > div > div.arts__regularBody___1TM6E-camelCase.styles__body___12LVw-camelCase > div.styles__terminal___-b2QX-camelCase > div:nth-child(3) > div:nth-child(2)").innerText = "> Welcome to the terminal."
+  }
+  
+  if (document.querySelector("#app > div > div > div.arts__regularBody___1TM6E-camelCase.styles__body___12LVw-camelCase > div.styles__terminal___-b2QX-camelCase > div:nth-child(3) > div:nth-child(3)")) {
+    document.querySelector("#app > div > div > div.arts__regularBody___1TM6E-camelCase.styles__body___12LVw-camelCase > div.styles__terminal___-b2QX-camelCase > div:nth-child(3) > div:nth-child(3)").innerText = "> Choose between one of the passwords below."
+  }
+  
+  if (document.querySelector("#app > div > div > div:nth-child(3) > div > div.styles__answersHolder___3LYNs-camelCase")) {
+    document.querySelector("#app > div > div > div:nth-child(3) > div > div.styles__answersHolder___3LYNs-camelCase").children.forEach(e=>{
+      e.firstChild.style.backgroundColor = "white"
+    })
   }
 }, 1)
   
