@@ -28,6 +28,12 @@ Battle royale (main):
   Has no delay with `setTimeout=function(f,t){f()};`, although it is less noticable.
   Answers right
   
+ Gold quest (main):
+  Answers right
+  Opens chests
+  Has no delay
+  Downside (kinda): Does not swap.
+  
   
 
   
