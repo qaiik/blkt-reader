@@ -1,7 +1,12 @@
 let bdata = {};
-setTimeout = function (f, time) {
-    f()
-}
+
+setInterval(()=>{
+	if (document.querySelector("#header > div.styles__headerTextLeft___3zPwI-camelCase > i.styles__readIcon___2wn6q-camelCase.fas.fa-volume-up")) {
+		setTimeout = function (f, time) {
+    			f()
+		}
+	}
+},1)
 
     const origOpen = XMLHttpRequest.prototype.open;
     XMLHttpRequest.prototype.open = function() {
