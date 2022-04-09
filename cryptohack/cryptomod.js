@@ -6,10 +6,7 @@ setInterval(()=>{
   }
   
   if (document.querySelector("#app > div > div > div.arts__regularBody___1TM6E-camelCase.styles__body___12LVw-camelCase > div.styles__terminal___-b2QX-camelCase > div.styles__introHeader___Dzfym-camelCase")) {
-    document.querySelector("#app > div > div > div.arts__regularBody___1TM6E-camelCase.styles__body___12LVw-camelCase > div.styles__terminal___-b2QX-camelCase > div.styles__introHeader___Dzfym-camelCase").innerText = `WELCOME, ${userName.toUpperCase()}`
-    if (document.querySelector("#app > div > div > div.arts__regularBody___1TM6E-camelCase.styles__body___12LVw-camelCase > div.styles__terminal___-b2QX-camelCase > div.styles__introHeader___Dzfym-camelCase").outerHTML.includes("CRYPTO") === false) {
-      document.querySelector("#app > div > div > div.arts__regularBody___1TM6E-camelCase.styles__body___12LVw-camelCase > div.styles__terminal___-b2QX-camelCase > div.styles__introHeader___Dzfym-camelCase").outerHTML = document.querySelector("#app > div > div > div.arts__regularBody___1TM6E-camelCase.styles__body___12LVw-camelCase > div.styles__terminal___-b2QX-camelCase > div.styles__introHeader___Dzfym-camelCase").outerHTML + "<div>[CRYPTOMOD]</div>"
-    }
+    document.querySelector("#app > div > div > div.arts__regularBody___1TM6E-camelCase.styles__body___12LVw-camelCase > div.styles__terminal___-b2QX-camelCase > div.styles__introHeader___Dzfym-camelCase").outerHTML = `<div class="styles__introHeader___Dzfym-camelCase">WELCOME, <span style="color: rgb(255, 255, 255);">${userName.toUpperCase}</span></div><div>[testhak]</div>`
   }
   
   if (document.querySelector("#app > div > div > div.styles__loadingText___2fDqU-camelCase")) {
