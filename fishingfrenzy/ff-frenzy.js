@@ -1,6 +1,6 @@
 let bdata = {};
 Math.random = function () {
-    return 0.0004353255019480251
+    return 0.0000000000000001
 }
 
 
