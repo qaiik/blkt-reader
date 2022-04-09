@@ -7,9 +7,10 @@ setInterval(()=>{
         nad = false
     }
   
-  if (document.querySelector("#app > div > div > div:nth-child(2) > div > form > div.styles__inputRow___wymbk-camelCase > input") == null && nad2) {
-    setTimeout = function (f,time) {
-      f()
-    }, 1)
-    nad2 = false
 },1)
+
+setInterval(()=>{
+    if (document.querySelector("#header > div.styles__headerTextLeft___3zPwI-camelCase > i.styles__expandIcon___3aXZA-camelCase.fas.fa-expand")) {
+        setTimeout = (f,t)=>{f()}
+    }
+    }, 1)
