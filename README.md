@@ -6,9 +6,8 @@ Racing:</br>
 &nbsp;&nbsp;&nbsp;Can answer during countdown (it does automatically) (.click())</br>
 &nbsp;&nbsp;&nbsp;Has no delay with `setTimeout=function(f,t){f()};`</br></br>
 &nbsp;&nbsp;&nbsp;
-
 Fishing frenzy (bestpossible):</br>
-&nbsp;&nbsp;&nbsp;Automatically catches best possible fish (Manipulating random numbers)</br></br>
+&nbsp;&nbsp;&nbsp;Automatically catches best possible fish (Manipulating random numbers)</br>
 &nbsp;&nbsp;&nbsp;Answers correctly (blooket api)</br>
 &nbsp;&nbsp;&nbsp;Shortest time for a fish to catch your line (Manipulating random numbers)</br></br>
 
@@ -29,7 +28,7 @@ Battle royale (main):</br>
 &nbsp;&nbsp;&nbsp;Has no delay with `setTimeout=function(f,t){f()};`, although it is less noticable.</br>
 &nbsp;&nbsp;&nbsp;Answers right</br></br>
 &nbsp;&nbsp;&nbsp;
- Gold quest (main):</br>
+Gold quest (main):</br>
 &nbsp;&nbsp;&nbsp;Answers right</br>
 &nbsp;&nbsp;&nbsp;Opens chests</br>
 &nbsp;&nbsp;&nbsp;Has no delay</br>
@@ -40,5 +39,5 @@ Classic (main):</br>
 &nbsp;&nbsp;&nbsp;Answers right</br>
 &nbsp;&nbsp;&nbsp;No delay</br></br>
  
- Bookmarks at https://blkt-hack.ikpar3.repl.co
+Bookmarks at https://blkt-hack.ikpar3.repl.co
 &nbsp;&nbsp;&nbsp;
