@@ -6,6 +6,7 @@ Racing:</br>
 &nbsp;&nbsp;&nbsp;Can answer during countdown (it does automatically) (.click())</br>
 &nbsp;&nbsp;&nbsp;Has no delay with `setTimeout=function(f,t){f()};`</br></br>
 &nbsp;&nbsp;&nbsp;
+
 Fishing frenzy (bestpossible):</br>
 &nbsp;&nbsp;&nbsp;Automatically catches best possible fish (Manipulating random numbers)</br></br>
 &nbsp;&nbsp;&nbsp;Answers correctly (blooket api)</br>
