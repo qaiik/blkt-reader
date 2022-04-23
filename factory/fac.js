@@ -182,41 +182,41 @@ setInterval(()=>{
     })
 setInterval(()=>{
     if (document.querySelector("#left > div > div.styles__remindText___25J6V-camelCase")) {
-          if (document.querySelector("#upgrade0 > div")) {
-    document.querySelector("#upgrade0 > div").click()
-  }
+//           if (document.querySelector("#upgrade0 > div")) {
+//     document.querySelector("#upgrade0 > div").click()
+//   }
 
-  if (document.querySelector("#upgrade1 > div")) {
-    document.querySelector("#upgrade1 > div").click()
-  }
+//   if (document.querySelector("#upgrade1 > div")) {
+//     document.querySelector("#upgrade1 > div").click()
+//   }
 
-  if (document.querySelector("#upgrade2 > div")) {
-    document.querySelector("#upgrade2 > div").click()
-  }
+//   if (document.querySelector("#upgrade2 > div")) {
+//     document.querySelector("#upgrade2 > div").click()
+//   }
   
-  if (document.querySelector("#upgrade3 > div")) {
-    document.querySelector("#upgrade3 > div").click()
-  }
-  if (document.querySelector("#upgrade4 > div")) {
-    document.querySelector("#upgrade4 > div").click()
-  }
-  if (document.querySelector("#upgrade5 > div")) {
-    document.querySelector("#upgrade1 > div").click()
-  }
-  if (document.querySelector("#upgrade6 > div")) {
-    document.querySelector("#upgrade1 > div").click()
-  }
-  if (document.querySelector("#upgrade7 > div")) {
-    document.querySelector("#upgrade7 > div").click()
-  }
-  if (document.querySelector("#upgrade8 > div")) {
-    document.querySelector("#upgrade8 > div").click()
-  }
+//   if (document.querySelector("#upgrade3 > div")) {
+//     document.querySelector("#upgrade3 > div").click()
+//   }
+//   if (document.querySelector("#upgrade4 > div")) {
+//     document.querySelector("#upgrade4 > div").click()
+//   }
+//   if (document.querySelector("#upgrade5 > div")) {
+//     document.querySelector("#upgrade1 > div").click()
+//   }
+//   if (document.querySelector("#upgrade6 > div")) {
+//     document.querySelector("#upgrade1 > div").click()
+//   }
+//   if (document.querySelector("#upgrade7 > div")) {
+//     document.querySelector("#upgrade7 > div").click()
+//   }
+//   if (document.querySelector("#upgrade8 > div")) {
+//     document.querySelector("#upgrade8 > div").click()
+//   }
   
-  if (document.querySelector("#upgrade9 > div")) {
-    document.querySelector("#upgrade9 > div").click()
-  }
-    }
+//   if (document.querySelector("#upgrade9 > div")) {
+//     document.querySelector("#upgrade9 > div").click()
+//   }
+//     }
 })
 
 setInterval(()=>{
