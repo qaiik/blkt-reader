@@ -92,9 +92,25 @@ setInterval(()=>{
     let s1 = document.querySelector("#choices > div.styles__blookChoices____ksoH-camelCase > div:nth-child(1)").innerText.split("\n")[0];
     let s2 = document.querySelector("#choices > div.styles__blookChoices____ksoH-camelCase > div:nth-child(2)").innerText.split("\n")[0];
     let s3 = document.querySelector("#choices > div.styles__blookChoices____ksoH-camelCase > div:nth-child(3)").innerText.split("\n")[0];
-    let ur1 = parseInt(gfn(s1)) / parseInt(gsn(s1))
-    let ur2 = parseInt(gfn(s2)) / parseInt(gsn(s2))
-    let ur3 = parseInt(gfn(s3)) / parseInt(gsn(s3))
+    let ur1=0;
+    let ur2=0;
+    let ur3 = 0;
+    if (!document.querySelector("#choices > div.styles__blookChoices____ksoH-camelCase > div:nth-child(1)").innerText.includes("Glitch")) {
+    	ur1 = parseInt(gfn(s1)) / parseInt(gsn(s1))
+    } else {
+	    ur1 = 0
+    }
+    if (!document.querySelector("#choices > div.styles__blookChoices____ksoH-camelCase > div:nth-child(2)").innerText.includes("Glitch")) {
+    	ur2 = parseInt(gfn(s1)) / parseInt(gsn(s1))
+    } else {
+	    ur2 = 0
+    }
+    if (!document.querySelector("#choices > div.styles__blookChoices____ksoH-camelCase > div:nth-child(3)").innerText.includes("Glitch")) {
+    	ur3 = parseInt(gfn(s1)) / parseInt(gsn(s1))
+    } else {
+	    ur3 = 0
+    }
+	  
     
     const o = { ur1, ur2, ur3 };  const name = Object.entries(o).reduce((m, c) => m[1] > c[1] ? m: c)[0];
     if (name === "ur1") {
