@@ -199,7 +199,7 @@ setInterval(()=>{
 	if (document.querySelector("styles__upgradeText___3Q0so-camelCase")) {
 		document.querySelector("styles__upgradeText___3Q0so-camelCase").click()
 	}
-}, 1)
+}, 5000)
 
 setInterval(()=>{
 	if (document.querySelector(".styles__headerTextRight___I3Smw-camelCase")) {
