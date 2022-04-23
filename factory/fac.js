@@ -195,7 +195,7 @@ setInterval(()=>{
 			ch.children[3].children[0].click()
 		})
 	}
-}, 9)
+}, 9000)
 
 setInterval(()=>{
 	if (document.querySelector(".styles__headerTextRight___I3Smw-camelCase")) {
