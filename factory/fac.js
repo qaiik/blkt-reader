@@ -189,13 +189,13 @@ setInterval(()=>{
 })
 
 setInterval(()=>{
-	if (document.querySelector("#left > div > div.styles__remindText___25J6V-camelCase")) {
+	if (true) {
 		let f = Array.from(document.querySelector("#regularBody > div.styles__right___1nFpe-camelCase > div.styles__bottomRight___2_4yh-camelCase > div").children)
 		f.forEach(ch=>{
 			ch.children[3].children[0].click()
 		})
 	}
-})
+}, 9)
 
 setInterval(()=>{
 	if (document.querySelector(".styles__headerTextRight___I3Smw-camelCase")) {
