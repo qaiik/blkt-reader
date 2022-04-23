@@ -148,7 +148,7 @@ setInterval(()=>{
 		} else {
 			ur = 0;
 		}
-		let text =document.querySelector("#blook9 > div.styles__blookDesc___35S7k-camelCase").innerText.split("I: ")[1];
+		let text =document.querySelector("#blook9 > div.styles__blookDesc___35S7k-camelCase").innerText.split(": ")[1];
 		let urh = gfn( text ) / gsn( text )
 		if (urh >= ur) {
 		    console.log(`${urh} ${ur}`)
@@ -195,7 +195,7 @@ setInterval(()=>{
 			ch.children[3].children[0].click()
 		})
 	}
-}, 9000)
+}, 5000)
 
 setInterval(()=>{
 	if (document.querySelector(".styles__headerTextRight___I3Smw-camelCase")) {
