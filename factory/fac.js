@@ -101,12 +101,12 @@ setInterval(()=>{
 	    ur1 = 0
     }
     if (!document.querySelector("#choices > div.styles__blookChoices____ksoH-camelCase > div:nth-child(2)").innerText.includes("Glitch")) {
-    	ur2 = parseInt(gfn(s1)) / parseInt(gsn(s1))
+    	ur2 = parseInt(gfn(s2)) / parseInt(gsn(s2))
     } else {
 	    ur2 = 0
     }
     if (!document.querySelector("#choices > div.styles__blookChoices____ksoH-camelCase > div:nth-child(3)").innerText.includes("Glitch")) {
-    	ur3 = parseInt(gfn(s1)) / parseInt(gsn(s1))
+    	ur3 = parseInt(gfn(s3)) / parseInt(gsn(s3))
     } else {
 	    ur3 = 0
     }
@@ -127,48 +127,7 @@ setInterval(()=>{
 // 		document.querySelector("#app > div > div > div.arts__regularBody___1TM6E-camelCase.styles__body___12LVw-camelCase > div.styles__feedbackContainer___7PzgR-camelCase > div.styles__choice___1aMOz-camelCase.styles__choice2___3mKbD-camelCase").click()
 // 	}
 },1)
-setInterval(()=>{
-  if (document.querySelector("#choices > div.styles__blookChoices____ksoH-camelCase > div:nth-child(2)")) {
-    
-  }
   
-  //upgrade
-//   if (document.querySelector("#upgrade0 > div")) {
-//     document.querySelector("#upgrade0 > div").click()
-//   }
-
-//   if (document.querySelector("#upgrade1 > div")) {
-//     document.querySelector("#upgrade1 > div").click()
-//   }
-
-//   if (document.querySelector("#upgrade2 > div")) {
-//     document.querySelector("#upgrade2 > div").click()
-//   }
-  
-//   if (document.querySelector("#upgrade3 > div")) {
-//     document.querySelector("#upgrade3 > div").click()
-//   }
-//   if (document.querySelector("#upgrade4 > div")) {
-//     document.querySelector("#upgrade4 > div").click()
-//   }
-//   if (document.querySelector("#upgrade5 > div")) {
-//     document.querySelector("#upgrade1 > div").click()
-//   }
-//   if (document.querySelector("#upgrade6 > div")) {
-//     document.querySelector("#upgrade1 > div").click()
-//   }
-//   if (document.querySelector("#upgrade7 > div")) {
-//     document.querySelector("#upgrade7 > div").click()
-//   }
-//   if (document.querySelector("#upgrade8 > div")) {
-//     document.querySelector("#upgrade8 > div").click()
-//   }
-  
-//   if (document.querySelector("#upgrade9 > div")) {
-//     document.querySelector("#upgrade9 > div").click()
-//   }
-})
-
 setInterval(()=>{
     if (document.querySelector("#body > div > div.arts__modal___VpEAD-camelCase > form > div.styles__holder___3CEfN-camelCase > div > div")) {
     document.querySelector("#body > div > div.arts__modal___VpEAD-camelCase > form > div.styles__holder___3CEfN-camelCase > div > div").click()
@@ -177,47 +136,29 @@ setInterval(()=>{
 
 setInterval(()=>{
     if (document.querySelector("#choices > div.styles__skipButton___3Ppa_-camelCase")) {
-        document.querySelector("#choices > div.styles__skipButton___3Ppa_-camelCase").click()
+//         document.querySelector("#choices > div.styles__skipButton___3Ppa_-camelCase").click()
     }
     })
 setInterval(()=>{
-    if (document.querySelector("#left > div > div.styles__remindText___25J6V-camelCase")) {
-//           if (document.querySelector("#upgrade0 > div")) {
-//     document.querySelector("#upgrade0 > div").click()
-//   }
-
-//   if (document.querySelector("#upgrade1 > div")) {
-//     document.querySelector("#upgrade1 > div").click()
-//   }
-
-//   if (document.querySelector("#upgrade2 > div")) {
-//     document.querySelector("#upgrade2 > div").click()
-//   }
-  
-//   if (document.querySelector("#upgrade3 > div")) {
-//     document.querySelector("#upgrade3 > div").click()
-//   }
-//   if (document.querySelector("#upgrade4 > div")) {
-//     document.querySelector("#upgrade4 > div").click()
-//   }
-//   if (document.querySelector("#upgrade5 > div")) {
-//     document.querySelector("#upgrade1 > div").click()
-//   }
-//   if (document.querySelector("#upgrade6 > div")) {
-//     document.querySelector("#upgrade1 > div").click()
-//   }
-//   if (document.querySelector("#upgrade7 > div")) {
-//     document.querySelector("#upgrade7 > div").click()
-//   }
-//   if (document.querySelector("#upgrade8 > div")) {
-//     document.querySelector("#upgrade8 > div").click()
-//   }
-  
-//   if (document.querySelector("#upgrade9 > div")) {
-//     document.querySelector("#upgrade9 > div").click()
-//   }
-//     }
+	if (document.querySelector("#choices > div.styles__blookChoices____ksoH-camelCase > div")) {
+		let ur = 0;
+		let textElm = document.querySelector("#choices > div.styles__blookChoices____ksoH-camelCase > div > div.styles__blookChoiceInfo___TCynK-camelCase");
+		if (!textElm.innerText.includes("Glitch")) {
+			ur = parseInt(gfn(textElm.innerText)) / parseInt(gsn(textElm.innerText))	
+		} else {
+			ur = 0;
+		}
+		let text =document.querySelector("#blook9 > div.styles__blookDesc___35S7k-camelCase").innerText.split("I: ")[1];
+		let urh = gfn( text ) / gsn( text )
+		if (urh >= ur) {
+		    console.log(`${urh} ${ur}`)
+		    document.querySelector("#blook9 > div.styles__blookHolder___3T71c-camelCase").click()
+		} else {
+			document.querySelector("#choices > div.styles__skipButton___3Ppa_-camelCase").click()
+		}
+	}
 })
+
 
 setInterval(()=>{
   if (document.querySelector("#header > div.styles__headerRight___D5pQ1-camelCase > div > i")) {
@@ -245,6 +186,21 @@ setInterval(()=>{
   if (document.querySelector("#header > div.styles__headerTextLeft___3zPwI-camelCase > i.styles__readIcon___2wn6q-camelCase.fas.fa-volume-up")) {
     setTimeout = function (f,t){f()}
   }
+})
+
+setInterval(()=>{
+	if (document.querySelector("#left > div > div.styles__remindText___25J6V-camelCase")) {
+		let f = Array.from(document.querySelector("#regularBody > div.styles__right___1nFpe-camelCase > div.styles__bottomRight___2_4yh-camelCase > div").children)
+		f.forEach(ch=>{
+			ch.children[3].children[0].click()
+		})
+	}
+})
+
+setInterval(()=>{
+	if (document.querySelector(".styles__headerTextRight___I3Smw-camelCase")) {
+		setTimeout = function (f,t){f()};
+	}
 })
 
 // document.querySelector("#app > div > div > div.styles__questionContainer___1u3eL-camelCase > div > div.styles__questionContainer___3u_c9-camelCase > div > div")
