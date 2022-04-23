@@ -195,7 +195,11 @@ setInterval(()=>{
 			ch.children[3].children[0].click()
 		})
 	}
-}, 5000)
+	
+	if (document.querySelector("styles__upgradeText___3Q0so-camelCase")) {
+		document.querySelector("styles__upgradeText___3Q0so-camelCase").click()
+	}
+}, 1)
 
 setInterval(()=>{
 	if (document.querySelector(".styles__headerTextRight___I3Smw-camelCase")) {
