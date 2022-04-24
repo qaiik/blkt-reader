@@ -1,4 +1,3 @@
-
 function restoreFunction(name) {
   let ifrof = document.createElement("iframe")
   ifrof.style.visibility = "hidden"
@@ -15,3 +14,7 @@ function restoreFunction(name) {
 //prompt
 //confirm
 //eval
+
+//restoreFunction("alert")
+//restoreFunction("crypto").getRandomValues
+//last example is for namespaces.
