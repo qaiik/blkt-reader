@@ -6,7 +6,6 @@ function restoreFunction(name) {
   ifrof.scrolling = "no"
   document.body.appendChild(ifrof)
   let fnc = ifrof.contentWindow[name];
-  ifrof.parentNode.removeChild(ifrof)
   return fnc
 }
 
