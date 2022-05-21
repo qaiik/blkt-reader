@@ -39,5 +39,5 @@ Classic (main):</br>
 &nbsp;&nbsp;&nbsp;Answers right</br>
 &nbsp;&nbsp;&nbsp;No delay</br>
  
-Bookmarks at [https://blkt-hack.ikpar3.repl.co](https://blkt-hack.ikpar3.repl.co/?madeby=encrypted_value)
+Bookmarks at https://blkt-hack.ikpar3.repl.co
 &nbsp;&nbsp;&nbsp;
