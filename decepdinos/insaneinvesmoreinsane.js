@@ -90,10 +90,9 @@ setInterval(()=>{
     let h = hack().stateNode.state.players.map((v,i)=>{
       return v.isCheating ? true : false
     })
-    if (h.every(v=>v===false)) {
-	    let ind = 0;
-    } else {
-    	let ind = h.indexOf(true);
+    let ind = 0
+    if (!h.every(v=>v===false)) {
+        let ind = h.indexOf(true);
     }
     document.querySelector("#app > div > div > div.arts__regularBody___1TM6E-camelCase > div.styles__tabletWrapper___1zyM_-camelCase > div > div.styles__playerHolder___3svS3-camelCase").children[ind].click()
   }
