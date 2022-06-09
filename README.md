@@ -39,11 +39,20 @@ Classic (main):</br>
 &nbsp;&nbsp;&nbsp;Answers right</br>
 &nbsp;&nbsp;&nbsp;No delay</br>
 
+Decepdinos:<br>
+    * betterinvesmoreinsane
+       * Catches anyone who cheats basically instantly, so you get fossils every time someone cheats.
+    * g100bf
+        * Changes your fossil multiplier to 1 billion. (2.5x per excavation, but 1 billion)
+    * main.js
+        * Automatically answers, and excavates fossils (without cheating)
+    
+
 Global:<br>
   * getCoins.js
     * Use on market. Gives you the max possible coins and xp for the day.
   * selldupe.js
-    * Use on blooks page, sells are your dupe blooks, so you get to keep your blooks, but get coins.
+    * Use on blooks page, sells all your dupe blooks, so you get to keep your blooks, but get coins.
   * spamopenboxes.js
     * Opens the box you choose as many times as possible, and ranks the results.
     
