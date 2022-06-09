@@ -39,9 +39,9 @@ Classic (main):</br>
 &nbsp;&nbsp;&nbsp;Answers right</br>
 &nbsp;&nbsp;&nbsp;No delay</br>
 
-Global:<br>
-+ t
-    -est
+* Global:<br>
+* t
+    * est
  
 Bookmarks at https://blkt-hack.ikpar3.repl.co
 &nbsp;&nbsp;&nbsp;
