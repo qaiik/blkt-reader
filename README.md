@@ -38,6 +38,9 @@ Gold quest (main):</br>
 Classic (main):</br>
 &nbsp;&nbsp;&nbsp;Answers right</br>
 &nbsp;&nbsp;&nbsp;No delay</br>
+
+Global:<br>
+- test
  
 Bookmarks at https://blkt-hack.ikpar3.repl.co
 &nbsp;&nbsp;&nbsp;
