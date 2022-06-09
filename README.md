@@ -49,8 +49,8 @@ Global:<br>
     * Use on blooks page, sells all your dupe blooks, so you get to keep your blooks, but get coins.
   * spamopenboxes.js
     * Opens the box you choose as many times as possible, and ranks the results.
-  * getallblooks.js
-   * Allows you to choose any blook in game.
+  * unlock-all-blooks.js
+    * Allows you to choose any blook in game.
     
  
 Bookmarks at https://blkt-hack.ikpar3.repl.co
