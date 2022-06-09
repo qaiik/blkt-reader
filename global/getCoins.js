@@ -51,5 +51,6 @@ var encodeValues = async (e, t) => {
             restoreFunction("alert")("Max coins and max xp added to your account.")
         } else {
             restoreFunction("alert")("There was an error adding coins and xp.")
+        }
     })
 })();
