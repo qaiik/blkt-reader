@@ -41,11 +41,11 @@ Classic (main):</br>
 
 Decepdinos:<br>
     * betterinvesmoreinsane
-       * Catches anyone who cheats basically instantly, so you get fossils every time someone cheats.
+      * Catches anyone who cheats basically instantly, so you get fossils every time someone cheats.
     * g100bf
-        * Changes your fossil multiplier to 1 billion. (2.5x per excavation, but 1 billion)
+      * Changes your fossil multiplier to 1 billion. (2.5x per excavation, but 1 billion)
     * main.js
-        * Automatically answers, and excavates fossils (without cheating)
+      * Automatically answers, and excavates fossils (without cheating)
     
 
 Global:<br>
