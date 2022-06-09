@@ -32,6 +32,13 @@ var encodeValues = async (e, t) => {
         name: "AES-GCM"
     }, !1, ["encrypt"]), (new TextEncoder).encode(JSON.stringify(e))))).map(e => String.fromCharCode(e)).join(""))
 };
+async function getName() {
+  let r = await fetch("https://api.blooket.com/api/users", {
+      credentials: "include"
+})
+  return (await r.json()).name
+}
+
 
 (async ()=>{
   let e = await getValues();
@@ -41,6 +48,7 @@ var encodeValues = async (e, t) => {
         body: await encodeValues({
             addedTokens: 500,
             addedXp: 300,
+            name: await getName()
         }, e.secret),
         headers: {
             "content-type": "application/json",
@@ -49,6 +57,7 @@ var encodeValues = async (e, t) => {
     }).then((res)=>{
         if (res.ok) {
             restoreFunction("alert")("Max coins and max xp added to your account.")
+            location.reload()
         } else {
             restoreFunction("alert")("There was an error adding coins and xp.")
         }
