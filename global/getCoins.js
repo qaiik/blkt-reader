@@ -1,3 +1,16 @@
+function restoreFunction(name) {
+  let ifrof = document.createElement("iframe")
+  ifrof.style.visibility = "hidden"
+  ifrof.style.width = "0px"
+  ifrof.style.height = "0px"
+  ifrof.scrolling = "no"
+  document.body.appendChild(ifrof)
+  let fnc = ifrof.contentWindow[name];
+  return fnc
+}
+
+
+
 var getValues = () => new Promise((e, t) => {
     try {
         let n = window.webpackJsonp.map(e => Object.keys(e[1]).map(t => e[1][t])).reduce((e, t) => [...e, ...t], []).find(e => /\w{8}-\w{4}-\w{4}-\w{4}-\w{12}/.test(e.toString()) && /\(new TextEncoder\)\.encode\(\"(.+?)\"\)/.test(e.toString())).toString();
@@ -33,5 +46,10 @@ var encodeValues = async (e, t) => {
             "content-type": "application/json",
             "X-Blooket-Build": e.blooketBuild
         }
+    }).then((res)=>{
+        if (res.ok) {
+            restoreFunction("alert")("Max coins and max xp added to your account.")
+        } else {
+            restoreFunction("alert")("There was an error adding coins and xp.")
     })
 })();
