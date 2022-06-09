@@ -42,10 +42,10 @@ Classic (main):</br>
 Global:<br>
   * getCoins.js
     * Use on market. Gives you the max possible coins and xp for the day.
-  +selldupe.js
-    +Use on blooks page, sells are your dupe blooks, so you get to keep your blooks, but get coins.
-  +spamopenboxes.js
-    +Opens the box you choose as many times as possible, and ranks the results.
+  * selldupe.js
+    * Use on blooks page, sells are your dupe blooks, so you get to keep your blooks, but get coins.
+  * spamopenboxes.js
+    * Opens the box you choose as many times as possible, and ranks the results.
     
  
 Bookmarks at https://blkt-hack.ikpar3.repl.co
