@@ -40,8 +40,8 @@ Classic (main):</br>
 &nbsp;&nbsp;&nbsp;No delay</br>
 
 * Global:<br>
-* t
-    * est
+   * t
+      * est
  
 Bookmarks at https://blkt-hack.ikpar3.repl.co
 &nbsp;&nbsp;&nbsp;
