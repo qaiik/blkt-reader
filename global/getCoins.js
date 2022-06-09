@@ -10,7 +10,7 @@ var getValues = () => new Promise((e, t) => {
     }
 });
 
-var encoder = async (e, t) => {
+var encodeValues = async (e, t) => {
     let d = window.crypto.getRandomValues(new Uint8Array(12));
     return window.btoa(Array.from(d).map(e => String.fromCharCode(e)).join("") + Array.from(new Uint8Array(await window.crypto.subtle.encrypt({
         name: "AES-GCM",
@@ -19,15 +19,19 @@ var encoder = async (e, t) => {
         name: "AES-GCM"
     }, !1, ["encrypt"]), (new TextEncoder).encode(JSON.stringify(e))))).map(e => String.fromCharCode(e)).join(""))
 };
+
 (async ()=>{
   let e = await getValues();
   fetch("https://api.blooket.com/api/users/add-rewards", {
-    method: "PUT",
-    body: await encodeValues({
-      addedTokens: 500,
-      addedXp: 300
-    }),
-    headers: {
-      referrer: "https://dashboard.blooket.com/play/hack/final"
-  })
-})
+        method: "PUT",
+        credentials: "include",
+        body: await encodeValues({
+            addedTokens: 500,
+            addedXp: 300,
+        }, e.secret),
+        headers: {
+            "content-type": "application/json",
+            "X-Blooket-Build": e.blooketBuild
+        }
+    })
+})();
