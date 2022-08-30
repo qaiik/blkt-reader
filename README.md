@@ -53,5 +53,3 @@ Global:<br>
     * Allows you to choose any blook in game.
     
  
-Bookmarks at https://blkt-hack.ikpar3.repl.co
-&nbsp;&nbsp;&nbsp; 
