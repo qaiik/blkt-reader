@@ -1,27 +1,14 @@
-function unlock() {
-  Object.values(document.querySelector("#app > div > div"))[1].children[1]._owner.stateNode.state.lockedBlooks = []
+function restoreFunction(name) {
+  let ifrof = document.createElement("iframe")
+  ifrof.style.visibility = "hidden"
+  ifrof.style.width = "0px"
+  ifrof.style.height = "0px"
+  ifrof.scrolling = "no"
+  document.body.appendChild(ifrof)
+  let fnc = ifrof.contentWindow[name];
+  return fnc
 }
 
-function gsblook() {
-  return Object.values(document.querySelector("#app > div > div"))[1].children[1]._owner.stateNode.state.selectedBlook
-}
+Object.values($("#app > div > div"))[1].children[0]._owner.stateNode.setState({ unlocks: Object.values(webpackJsonp.push([[], { ['']: (_, a, b) => { a.cache = b.c }, }, [['']],]).cache).find(x=>x.exports?.a?.toString().includes('UFO')).exports.a.toString().split('"').filter(b => !(b.startsWith(';') || b.startsWith(':') || b.startsWith('function') || b.startsWith('}'))) });
 
-let blooks = Array.from(document.querySelector("#app > div > div > div.arts__regularBody___1TM6E-camelCase > div > div.styles__lowerContainer___1J56B-camelCase > div.styles__blookArrayContainer___ZrR1Y-camelCase").children);
-let csblook = gsblook();
-let blookElm;
-
-unlock()
-blooks.forEach((b)=>{
-    let name = b.firstChild.firstChild.alt.split(" Blook")[0];
-    if (name === csblook) {
-        blookElm = b
-    }
-})
-
-document.querySelector("#app > div > div > div.arts__regularBody___1TM6E-camelCase > div > div.styles__lowerContainer___1J56B-camelCase > div.styles__blookArrayContainer___ZrR1Y-camelCase > div:nth-child(1)").click()
-let iint = setInterval(()=>{
-  blookElm.click()
-  if (gsblook() === csblook) {
-    clearInterval(iint)
-  }
-})
+restoreFunction("alert")("made by zastix");
