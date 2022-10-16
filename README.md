@@ -1,4 +1,5 @@
 # blooket-reader 
+[THESE DO NOT WORK ANYMORE - THEY MAY POSSIBLY BE FIXED IN THE FUTURE]
 Automatically answers correctly, and instantly. (blooket api)</br>
 
 Racing:</br>
