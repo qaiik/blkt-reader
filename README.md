@@ -1,5 +1,5 @@
-# blooket-reader 
-[THESE DO NOT WORK ANYMORE - THEY MAY POSSIBLY BE FIXED IN THE FUTURE]
+# blkt-reader
+Only some of these hacks work.</br>
 Automatically answers correctly, and instantly. (blooket api)</br>
 
 Racing:</br>
